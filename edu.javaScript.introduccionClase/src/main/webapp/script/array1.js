@@ -1,3 +1,6 @@
+let frase="uno"+123;
+document.write(frase);
+document.write("<hr>");
 function lista(){
 let alumnos = ["Alfonso","Alberto","Carlos","José María"];
 
@@ -30,3 +33,13 @@ function lista2(){
 	}
 	
 }
+function concatenar1(){
+	let textos=["CSI1","curso","2022 23."];
+	document.write(textos[0]+textos[1]+textos[2]);
+}
+function concatenar2(){
+	let partes = ["posiciones", "se cuentan", "Las", "array", "cero.", "a partir", "del"];
+	document.write(partes[2]+" "+partes  [0]+" "+partes[6]+" "+partes[3]+" "+partes[1]+" "+partes[5]+" "+partes[6]+" "+partes[4]);
+}
+
+
