@@ -38,7 +38,7 @@ function concatenar1(){
 	document.write(textos[0]+textos[1]+textos[2]);
 }
 function concatenar2(){
-	let partes = ["posiciones ", "se cuentan ", "Las ", "array ", "cero.", "a partir ", "del "];
+	let partes = ["posiciones ", "se cuentan ", "Las ", "array ", "cero.", "a partir ", "del  "];
 	document.write(partes[2]+partes  [0]+partes[6]+partes[3]+partes[1]+partes[5]+partes[6]+partes[4]);
 }
 
