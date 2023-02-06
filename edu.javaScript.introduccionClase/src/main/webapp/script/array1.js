@@ -16,6 +16,7 @@ document.write(letra);
 }
 function lista2(){
 	let lista2=[123,"Mario"];
+	//lo siguiente sale undefined porque no se le puede hacer el charAt a un int
 	let numero=lista2[0][1];
 	let palabra=lista2[1][1];
 	
