@@ -4,5 +4,6 @@ console.log("Hola Mundo");
 alert("Active el soporte JavaScript si aun no lo tiene activado");
 //Función que hace que se escriba en la vista una frase.
 function primerScript(){
-	document.write("Soy el primer Script")
+	let mensaje="Soy el primer Script"
+	document.write(mensaje);
 }
