@@ -24,6 +24,7 @@ var valores = [true, 5, false, "hola", "adios", 2];
 //---Primer apartado---
 
 //Comparo los valores
+function masLargo(){
 var largo=valores[4]>valores[3];
 document.write("Elemento de texto mas largo: ");
 //si largo=true
@@ -33,16 +34,18 @@ if(largo){
 //si largo=false
 else document.write(valores[4]+" es mas largo que "+valores[3]);
 document.write("<br>")
+}
 //---Segundo apartado---
-
+function trueYFalse(){
 //Cuando uno de los dos es true va a dar true.
 let valorTrue=valores[0]||valores[2];
 document.write("Resultado verdadero: "+valorTrue+"<br>")
 //Tienen que ser los dos true para que de true por lo tanto da false.
 let valorFalse=valores[0]&&valores[2];
 document.write(" Resultado falso: "+valorFalse)
+}
 //---Tercer apartado---
-
+function operaciones(){
 //Operaciones
 let suma=valores[1]+valores[5];
 let resta=valores[1]-valores[5];
@@ -50,10 +53,40 @@ let multiplicacion=valores[1]*valores[5];
 let division=valores[1]/valores[5];
 let resto=valores[1]%valores[5];
 //Escribo en la vista.
-document.write("<br>Suma: "+suma+" Resta: "+resta+" Multiplicacion: "+multiplicacion+" Division: "+division+" Resto: "+resto)
+document.write("<br>Suma: "+suma+" Resta: "+resta+" Multiplicacion: "+multiplicacion+" Division: "+division+" Resto: "+resto);
+}
 //---Cuarto apartado---
 
-let incremento=++valores[1];
+function incremento(){
+	document.write(++valores[1]);
+}
+function decremento(){
+	document.write(--valores[1]);
+}
+function exponente(){
+	let exponente=Math.pow(valores[1],valores[5]);
+	document.write(exponente);
+}
+//---Ejercicio 5---
+var numero1=5;
+var numero2=8;
+console.log("Numero1: "+numero1);
+console.log("Numero2: "+numero2)
+function if1(){
+	if(numero1<numero2) 
+console.log("numero1 no es mayor que numero2");
+}
+function if2(){
+	if(numero2>0) 
+console.log("numero2 es positivo");
 
-document.write("<br>"+incremento)
+	}
+function if3(){
+	if(numero1<0||numero1!=0) 
+console.log("numero1 es negativo o distinto de cero");
+}
+function if4(){
+	if(++numero1<numero2) 
+console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
+}
 

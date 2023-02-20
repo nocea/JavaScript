@@ -7,8 +7,8 @@ document.write(comparador);
 function ejercicio1(){
  let numero = 12;
  numero+=5;
- numero--;
- let multiplicacion=10**5;
+ numero--; 
+//let multiplicacion=10**5; da fallo por la cara
  let resto=57409%16789;
  document.write("Numero: "+numero);
  document.write("<br>");
